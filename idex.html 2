@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Box Model Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Welcome to My Styled Page</h1>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="content-section">
+        <h2>About This Page</h2>
+        <p>This page demonstrates the CSS Box Model, including margin, padding, borders, and background colors.</p>
+    </section>
+
+    <section class="card-container">
+        <div class="card">
+            <h3>Card Title</h3>
+            <p>This is a sample card with styled spacing and borders.</p>
+            <button>Click Me</button>
+        </div>
+        <div class="card">
+            <h3>Another Card</h3>
+            <p>Each card uses the Box Model to control layout and appearance.</p>
+            <button>Learn More</button>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Collins' Layout Lab</p>
+    </footer>
+</body>
+</html>
+
