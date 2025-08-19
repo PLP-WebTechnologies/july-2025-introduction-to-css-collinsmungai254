@@ -1,0 +1,75 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Header Styling */
+.survey-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  border-bottom: 4px solid #3498db;
+}
+
+.survey-header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main Container */
+.survey-container {
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Question Card */
+.question-card {
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  background-color: #eaf2f8;
+}
+
+/* Form Styling */
+form label {
+  display: block;
+  margin: 8px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #2c3e50;
+  color: white;
+  margin-top: 40px;
+}
+
